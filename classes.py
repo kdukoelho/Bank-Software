@@ -10,7 +10,7 @@ class Account:
         self.a_number = None
 
     def generate_a_number(self):
-        self.a_number = ''.join((str(randint(1, 9)), str(randint(1, 9)), str(randint(1, 9))))
+        self.a_number = ''.join((str(randint(1, 9)), str(randint(1, 9)), str(randint(1, 9)), '-', str(randint(1, 9))))
         self.a_number = str(self.a_number)
 
     def account_statement(self):
